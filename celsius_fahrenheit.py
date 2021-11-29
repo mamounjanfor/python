@@ -1,7 +1,7 @@
 print("Hello, Which operation you need to do?")
 
 
-val1 = input("Select from below options \n [1] for celsius-to-fahrenheit\n [2] for fahrenheit-to-celsius\n [q] to exit \n")
+val1 = input("Select from below options \n [1] for celsius-to-fahrenheit\n [2] for fahrenheit-to-celsius\n [q] to exit \n").strip()
 
 
 if val1 == 'q' or val1 == 'Q':
